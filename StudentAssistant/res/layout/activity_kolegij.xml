@@ -1,0 +1,83 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignTop="@+id/spPregledPKolegiji"
+    android:background="@drawable/pozadinabez"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/lblDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="@string/nazivkolegija"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@android:color/white" >
+
+    </TextView>
+
+    <EditText
+        android:id="@+id/txtNazivKolegija"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="15dp"
+        android:inputType="text" >
+    </EditText>
+
+    <LinearLayout
+        android:id="@+id/layButtons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="15dp"
+        android:gravity="center_horizontal"
+        android:paddingBottom="20dp" >
+
+        <Button
+            android:id="@+id/btnSave"
+            android:layout_width="110sp"
+            android:layout_height="wrap_content"
+            android:text="@string/spremi" />
+
+        <Button
+            android:id="@+id/btnCancel"
+            android:layout_width="110sp"
+            android:layout_height="wrap_content"
+            android:text="@string/odustani" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="#0000FF" >
+
+        <TextView
+            android:id="@+id/idKolegija"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:padding="10sp"
+            android:text="@string/txtidKolegija"
+            android:textColor="@android:color/white"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/NazivKolegija"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10sp"
+            android:text="@string/txtKolegij"
+            android:textColor="@android:color/white"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/lvKolegiji"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/black" >
+    </ListView>
+
+</LinearLayout>

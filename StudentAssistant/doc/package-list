@@ -1,0 +1,6 @@
+hr.foi.air.StudentAssistant
+hr.foi.air.StudentAssistant.database
+hr.foi.air.StudentAssistant.events
+hr.foi.air.StudentAssistant.interfaces
+hr.foi.air.StudentAssistant.plugins.obavijest_json
+hr.foi.air.StudentAssistant.types

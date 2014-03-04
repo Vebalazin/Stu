@@ -1,0 +1,48 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <string name="app_name">Student Assistant</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">Student Assistant</string>
+    <string name="btnUnosKolegija">Unos kolegija</string>
+    <string name="btnRaspored">Raspored</string>
+    <string name="btnPodaciKolegija">Podaci o kolegiju</string>
+    <string name="btnObavijesti">Obavijesti</string>
+    <string name="Obavijesti">Obavijesti</string>
+    <string name="Podaciokolegiju">Podaci o kolegiju</string>
+    <string name="Unoskolegija">Unos kolegija</string>
+    <string name="Raspored">Raspored</string>
+    <string name="nazivkolegija">Naziv kolegija</string>
+    <string name="spremi">Spremi</string>
+    <string name="odustani">Odustani</string>
+    <string name="btnIzradaR">Izrada rasporeda</string>
+    <string name="btnPregledR">Pregled rasporeda</string>
+    <string name="txtIzradaR">Izrada rasporeda:</string>
+    <string name="txtPregledR">Pregled rasporeda:</string>
+    <string name="btnUnosP">Unos podataka o kolegiju</string><string name="btnPregledP">Pregled podataka o kolegijima</string>
+    <string name="txtOdaberiKolegij">Kolegij:</string>
+    <string name="txtodaberiEvidenciju">Evidencija:</string>
+    <string name="txtUnosBiljeske">Unesite bilješku:</string>
+    <string name="txtUnosBodova">Bodovi:</string>
+    <string name="btnPrihvatiEvidenciju">Spremi evidenciju</string>
+    <string name="btnSpremiBiljesku">Spremi bilješku</string>
+    <string name="btnUnosBodova">Spremi bodove</string>
+    <string name="txtOdabirPrikaza">Odaberite prikaz:</string>
+    <string name="btnOsvjezi">Prikaži podatke</string>
+    <string name="txtUnosDatuma">Datum evidencije:</string>
+    <string name="txtOznakaBodova">Oznaka:</string>
+    <string name="txtOdabirDana">Odaberite dan:</string>
+    <string name="txtVrijemeP">Početak:</string>
+    <string name="txtVrijemeK">Kraj:</string>
+    <string name="txtOdabirNastave">Odaberite tip nastave:</string>
+    <string name="txtUnosDvorane">Broj dvorane:</string>
+    <string name="dbContextMenuTitle">Mogućnosti</string>
+    <string name="brisi">Brisanje</string>
+    <string name="promjena">Promjena</string>
+    <string name="txtKolegij">Kolegij</string>
+    <string name="txtidKolegija">ID</string>
+    
+    
+    
+
+</resources>

@@ -1,0 +1,63 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pozadina"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/layButtons2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="88dp"
+        android:layout_marginTop="15dp"
+        android:gravity="center_horizontal"
+        android:paddingBottom="20dp" >
+
+        <ImageButton
+            android:id="@+id/imageButton1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/Obavijesti"
+            android:onClick="openObavijesti"
+            android:src="@drawable/btnobavijesti200" />
+
+        <ImageButton
+            android:id="@+id/imageButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/Podaciokolegiju"
+            android:onClick="openPodaci"
+            android:src="@drawable/btnpodaciokolegiju200" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layButtons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/layButtons2"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="24dp"
+        android:gravity="center_horizontal"
+        android:paddingBottom="0dp" >
+
+        <ImageButton
+            android:id="@+id/imageButton3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/Unoskolegija"
+            android:onClick="openKolegij"
+            android:src="@drawable/btnkolegij200" />
+
+        <ImageButton
+            android:id="@+id/imageButton4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/Raspored"
+            android:onClick="openRaspored"
+            android:src="@drawable/btnraspored200" />
+    </LinearLayout>
+
+</RelativeLayout>

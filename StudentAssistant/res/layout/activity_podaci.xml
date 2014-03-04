@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pozadinabez"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/btnUnosPodataka"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="159dp"
+        android:onClick="openUnosP"
+        android:text="@string/btnUnosP" />
+
+    <Button
+        android:id="@+id/btnPregledPodataka"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnUnosPodataka"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="53dp"
+        android:onClick="openPregledP"
+        android:text="@string/btnPregledP" />
+
+</RelativeLayout>

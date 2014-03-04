@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentTop="true"
+    android:background="@drawable/pozadinabez"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/txtOdaberiteDan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="22dp"
+        android:text="@string/txtOdabirDana"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@android:color/white" />
+
+    <Spinner
+        android:id="@+id/spOdabirDanaPregledR"
+        android:layout_width="227dp"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnOsvjeziStavke"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/btnOsvjezi" />
+
+    <ListView
+        android:id="@+id/lvStavkaRasporeda"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/black" >
+    </ListView>
+
+</LinearLayout>
